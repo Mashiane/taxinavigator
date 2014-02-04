@@ -1,6 +1,6 @@
 { "manifest_version": 2,
   "name": "TaxiNavigator",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "offline_enabled": true,
   "description": "Taxi Navigator",
   "icons": { "16": "/16.png",
