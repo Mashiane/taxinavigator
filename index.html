@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <title>TaxiNavigator</title>
 <meta name='generator' content='NSB/AppStudio 4.0.0.0b2$bhnw' />
-<meta name='date' content='2014-02-05 17:14:43.574000' />
-<meta name='version' content='1.0.13' />
+<meta name='date' content='2014-02-06 12:26:15.709000' />
+<meta name='version' content='1.0.14' />
 <meta name='viewport' content='width=device-width minimum-scale=1.0, maximum-scale=0.6667, user-scalable=no, minimal-ui' />
 <meta name='apple-mobile-web-app-capable' content='YES' />
 <meta name='mobile-web-app-capable' content='yes' />
@@ -92,7 +92,24 @@
 
 #taxiOperationsH {position: absolute; width:100%; height:40px; left:0px; top:0px;}
 #servicesH {position: absolute; width:100%; height:40px; left:0px; top:0px;}
-#txtServices {position:absolute; left:5px; right:auto; top:44px; bottom:auto; height:185px; width:95%}
+#txtservices {position:absolute; left:5px; right:auto; top:44px; bottom:auto; height:185px; width:95%}
+#faresEditor_scroller {position: absolute; overflow:hidden; width:300px; height:168px; left:1px; top:71px}
+#faresEditor {position:absolute; left:0px; top:0px; width:300px; height:auto;}
+#faresEditor {left:1px; top:71px;}
+#cboOProvince {position:absolute; left:113px; right:auto; top:75px; bottom:auto; height:40px; width:196px}
+#cboOPlace {position:absolute; left:112px; right:auto; top:119px; bottom:auto; height:40px; width:196px}
+#faresEditorH {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#lblOrigin {position:absolute; left:0px; right:auto; top:48px; bottom:auto; height:20px; width:70px}
+#faresEditor1_scroller {position: absolute; overflow:hidden; width:300px; height:168px; left:0px; top:196px}
+#faresEditor1 {position:absolute; left:0px; top:0px; width:300px; height:auto;}
+#faresEditor1 {left:0px; top:196px;}
+#lblDestination {position:absolute; left:0px; right:auto; top:173px; bottom:auto; height:20px; width:70px}
+#cboDProvince {position:absolute; left:110px; right:auto; top:200px; bottom:auto; height:40px; width:196px}
+#cboDPlace {position:absolute; left:110px; right:auto; top:244px; bottom:auto; height:40px; width:196px}
+#lblDestinationCopy {position:absolute; left:0px; right:auto; top:295px; bottom:auto; height:20px; width:70px}
+#faresEditor2_scroller {position: absolute; overflow:hidden; width:300px; height:168px; left:0px; top:316px}
+#faresEditor2 {position:absolute; left:0px; top:0px; width:300px; height:auto;}
+#faresEditor2 {left:0px; top:316px;}
 body * {font-family:helvetica}
 </style>
 </head>
@@ -144,8 +161,11 @@ body * {font-family:helvetica}
 <form id="frmServices" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
 <script src="51.js"></script>
 </form>
+<form id="frmFaresEditor" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
+<script src="53.js"></script>
+</form>
 </div>
-<script src="53.js"></script><link href="select.css"rel="stylesheet"><script src="55.js"></script>
+<script src="55.js"></script><link href="select.css"rel="stylesheet"><script src="57.js"></script>
 <script src="taxinavigator.js"></script>
 
 </body>

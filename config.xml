@@ -3,7 +3,7 @@
 xmlns = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/1.0"
 id = "com.nsbasic.TaxiNavigator"
-version = "1.0.13">
+version = "1.0.14">
 
 <name>TaxiNavigator</name>
 <description>Taxi Navigator</description>
@@ -30,7 +30,9 @@ version = "1.0.13">
 <!-- sample preference specification -->
 <!-- <preference name="autorotate" value="false" readonly="true"/> -->
 <!-- <preference name="orientation" value="default" > -->
-<preference name="SplashScreenDelay" value="10000" />
 <preference name="fullscreen" value="true" />
+<preference name="prerendered-icon" value="true" />
+<preference name="exit-on-suspend" value="false" />
+<preference name="splash-screen-duration" value="5000"/>
 <gap:plugin name="org.apache.cordova.device" />
 </widget>
